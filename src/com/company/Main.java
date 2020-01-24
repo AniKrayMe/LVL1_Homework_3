@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Main {
 
@@ -12,9 +11,14 @@ public class Main {
         numbers.add(30);
         numbers.add(20);
         numbers.add(40);
-        Collections.sort(numbers);
         for (int i = 0; i <numbers.size(); i++) {
             System.out.println(numbers.get(i));
+
+        }
+        System.out.println();
+        ArrayList<Integer> copyNumbers = new ArrayList<>(numbers);
+        for (int i = 0; i <copyNumbers.size(); i++) {
+            System.out.println(copyNumbers.get(i));
         }
     }
 }
