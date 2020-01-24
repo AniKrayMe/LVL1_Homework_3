@@ -11,6 +11,13 @@ public class Main {
         colors.add("Red");
         colors.add("Black");
         colors.add("Orange");
-        System.out.println(colors.get(2));
+        for (int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
+        }
+        colors.remove(2);
+        colors.add("Pink");
+        for (int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
+        }
     }
 }
