@@ -10,7 +10,7 @@ public class Main {
         numbers1.add(10);
         numbers1.add(30);
         numbers1.add(20);
-        numbers1.add(40);
+        numbers1.add(40);    numbers1.add(40);
         numbers1.set(1,60);
         for (int i = 0; i < numbers1.size(); i++) {
             System.out.print(numbers1.get(i) + ", ");
