@@ -14,10 +14,11 @@ public class Main {
         for (int i = 0; i < colors.size(); i++) {
             System.out.println(colors.get(i));
         }
+        System.out.println();
         colors.remove(2);
-        colors.add("Pink");
         for (int i = 0; i < colors.size(); i++) {
             System.out.println(colors.get(i));
         }
+
     }
 }
