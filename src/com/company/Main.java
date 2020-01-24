@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Main {
 
@@ -15,12 +14,9 @@ public class Main {
         for (int i = 0; i < colors.size(); i++) {
             System.out.println(colors.get(i));
         }
-        Iterator<String> colorsIterator = colors.iterator();
-        for (int i = 0; colorsIterator.hasNext(); i++) {
-            String color = colorsIterator.next();
-            System.out.println(color);
-
-
+        colors.add(0, "Pink");
+        for (int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
         }
     }
 }
