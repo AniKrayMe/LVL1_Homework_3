@@ -16,9 +16,9 @@ public class Main {
 
         }
         System.out.println();
-        ArrayList<Integer> numbers2 = new ArrayList<>(numbers1);
-        for (int i = 0; i <numbers2.size(); i++) {
-            System.out.print(numbers2.get(i)+ ", ");
+        numbers1.clear();
+        for (int i = 0; i <numbers1.size(); i++) {
+            System.out.print(numbers1.get(i)+ ", ");
 
         }
     }
