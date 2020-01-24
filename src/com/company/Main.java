@@ -11,13 +11,10 @@ public class Main {
         numbers1.add(30);
         numbers1.add(20);
         numbers1.add(40);
-        if (numbers1.size() == 0){
-            System.out.println("array list is empty");
-        }else {
-            for (int i = 0; i <numbers1.size(); i++) {
-                System.out.print(numbers1.get(i)+ ", ");
+        numbers1.set(1,60);
+        for (int i = 0; i < numbers1.size(); i++) {
+            System.out.print(numbers1.get(i) + ", ");
 
-            }
         }
     }
 }
