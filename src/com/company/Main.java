@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
@@ -16,9 +17,9 @@ public class Main {
 
         }
         System.out.println();
-        ArrayList<Integer> copyNumbers = new ArrayList<>(numbers);
-        for (int i = 0; i <copyNumbers.size(); i++) {
-            System.out.println(copyNumbers.get(i));
+        Collections.reverse(numbers);
+        for (int i = 0; i <numbers.size(); i++) {
+            System.out.println(numbers.get(i));
         }
     }
 }
