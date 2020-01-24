@@ -16,22 +16,10 @@ public class Main {
 
         }
         System.out.println();
-        ArrayList<Integer> numbers2 = new ArrayList<>();
-        numbers2.add(60);
-        numbers2.add(70);
-        numbers2.add(80);
-        numbers2.add(90);
-        numbers2.add(100);
-        for (int i = 0; i <numbers1.size(); i++) {
-            System.out.print(numbers1.get(i)+ ", ");
+        ArrayList<Integer> numbers2 = new ArrayList<>(numbers1);
+        for (int i = 0; i <numbers2.size(); i++) {
+            System.out.print(numbers2.get(i)+ ", ");
 
-        }
-        System.out.println();
-        ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.addAll(numbers1);
-        numbers.addAll(numbers2);
-        for (int i = 0; i <numbers.size(); i++) {
-            System.out.print(numbers.get(i)+ ", ");
         }
     }
 }
